@@ -7,6 +7,11 @@ name: Coder's Block
 
 # Author
 author: Gunith Devasurendra
+profile:
+  first_name:  Gunith
+  last_name:  Devasurendra
+  username: gunith
+  gender: male
 
 # Short bio or description (displayed in the header)
 description: Thoughts and Codes by Gunith Devasurendra

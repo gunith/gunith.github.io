@@ -8,7 +8,12 @@
 <meta property="article:tag" content="{{ tag }}"/>
 {% endfor %}{% endif %}
 {% if page.title %}<meta property="twitter:title" content="{{ page.title }}" />{% endif %}
-{% if page %}<meta property="article:author" content="{{ site.author }}" />{% endif %}
+{% if page %}
+{% if profile.first_name %}<meta property="profile:first_name" content="{{ profile.first_name }}" />{% endif %}
+{% if profile.last_name %}<meta property="profile:last_name" content="{{ profile.last_name }}" />{% endif %}
+{% if profile.username %}<meta property="profile:username" content="{{ profile.username }}" />{% endif %}
+{% if profile.gender %}<meta property="profile:gender" content="{{ profile.gender }}" />{% endif %}
+{% endif %}
 <meta property="og:image" content="{{ site.url }}/images/coders-block-card.jpg" />
 <meta meta name="twitter:image" content="{{ site.url }}/images/coders-block-card.jpg" />
 {% seo title=false %}
