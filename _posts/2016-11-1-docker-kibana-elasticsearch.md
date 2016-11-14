@@ -5,6 +5,14 @@ published: true
 categories:
 - Docker
 - Elasticsearch
+tags:
+- programming
+- code
+- Docker
+- Elasticsearch
+- docker-compose
+- containers
+- Kibana
 ---
 So I was trying to learn elasticsearch for work. So I was looking for some tutorials and I came across [this official tutorial](https://www.elastic.co/webinars/getting-started-elasticsearch?baymax=default&storm=cta1&elektra=home). I was going to setup elasticsearch and kibana for it and I thought it's better to do this in Docker, since it's easy to use. The issue with Elasticsearch and Kibana is, the two should be linked and that has to be defined by Docker. I had some problems with it and I even [posted it on StackOverflow](http://stackoverflow.com/questions/40341346/kibana-on-docker-cannot-connect-to-elasticsearch). As per the accepted answer by [Andreas Jägle](http://stackoverflow.com/users/4854965/andreas-j%c3%a4gle), there are two solutions.
 
