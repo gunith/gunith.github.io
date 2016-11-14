@@ -2,10 +2,9 @@
 <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-<meta name="author" content="{{ site.author }}" />
+<meta property="author" content="{{ site.author }}" />
 {% if page.tags %}<meta name="keywords" content="{% for tag in page.tags %}{{ tag }}, {% endfor %}"/>{% endif %}
-{% if page.tags %}{% for tag in page.tags %}
-<meta property="article:tag" content="{{ tag }}"/>
+{% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}"/>
 {% endfor %}{% endif %}
 {% if page.title %}<meta property="twitter:title" content="{{ page.title }}" />{% endif %}
 {% if page %}
@@ -14,6 +13,14 @@
 {% if profile.username %}<meta property="profile:username" content="{{ profile.username }}" />{% endif %}
 {% if profile.gender %}<meta property="profile:gender" content="{{ profile.gender }}" />{% endif %}
 {% endif %}
-<meta property="og:image" content="{{ site.url }}/images/coders-block-card.jpg" />
-<meta meta name="twitter:image" content="{{ site.url }}/images/coders-block-card.jpg" />
+
+<meta property="og:image" content="{{ site.url }}/images/coders-block-card-li-dark.jpg" />
+<meta property="og:image:width" content="180" />
+<meta property="og:image:height" content="110" />
+
+<meta property="og:image" content="{{ site.url }}/images/coders-block-card-fb-dark.jpg" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="315" />
+
+<meta meta name="twitter:image" content="{{ site.url }}/images/coders-block-twitter-dark.jpg" />
 {% seo title=false %}
