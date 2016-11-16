@@ -226,6 +226,10 @@ img {
   margin: -5pt;
   width: 250px;
 
+  @include mobile {
+    width: 100%;
+  }
+
   .gsc-control-cse {
      padding: 0em;
   }
