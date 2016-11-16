@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>Posts with {{ page.type }} '{{ page.title }}'</h1>
-<p>To see all the posts, please go to <a class="post-link" href="{{ prepend: site.baseurl }}">the homepage of <em>{{ site.name }}</em></a></p>
+<p>To see all the posts, please go to <a class="post-link" href="{{ site.baseurl }}">the homepage of <em>{{ site.name }}</em></a></p>
 <!--ul class="posts"-->
 <div class="posts">
 {% for post in page.posts %}

@@ -115,7 +115,7 @@ img {
   font-size: 10pt;
   font-weight: bold;
   color: $gray;
-  
+
   .date {
     font-style: normal;
   }
@@ -224,6 +224,7 @@ img {
 .search {
   float: right;
   margin: -5pt;
+  width: 250px;
 
   .gsc-control-cse {
      padding: 0em;
